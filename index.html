@@ -1,0 +1,25 @@
+<html data-ng-app="cricketWikiApp">
+	<head>
+		<title>Cricket Wiki</title>
+		<link rel="stylesheet" type="text/css" href="css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<script type="text/javascript" src="js/angular.min.js"></script>
+		<script type="text/javascript" src="js/angular-route.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+		<!-- Put controllers and modules here -->
+		<script type="text/javascript" src="app/app.js"></script>
+		<script type="text/javascript" src="app/controllers/cricket_team_controller.js"></script>
+		<script type="text/javascript" src="app/controllers/cricket_team_view_controller.js"></script>
+		<script type="text/javascript" src="app/controllers/player_view_controller.js"></script>
+		<script type="text/javascript" src="app/controllers/user_controller.js"></script>
+		<script type="text/javascript" src="app/controllers/error_controller.js"></script>
+
+		<script type="text/javascript" src="app/services/team_service.js"></script>
+
+	</head>
+	<body>
+		<div data-ng-include="'./app/partials/user_partial.html'" ></div>
+		<ng-view></ng-view>
+	</body>
+</html>

@@ -1,0 +1,17 @@
+<div style="padding: 50px">
+	<div class="alert alert-danger" role="alert" data-ng-show="load_error_text">{{load_error_text}}</div>
+	<p>
+		{{team_detail}}
+	</p>
+	<div class="player thumbnail" style="width: 250px; min-height: 250px; margin-right: 10px; float: left" ng-repeat=" player in players">
+		<a href="/index.html#/teams/{{team_detail}}/photos/{{player.filename}}">
+			<img src="/media/{{team_detail}}/thumb/{{player.filename}}"/>
+		</a>
+		<p>
+			{{player.description}}		
+		</p>
+		<p>
+			{{player.name}}
+		</p>
+	</div>
+</div>

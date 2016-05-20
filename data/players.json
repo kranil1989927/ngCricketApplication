@@ -1,0 +1,26 @@
+var players = {
+	"ind":[
+		{
+			"filename" : "sachin_tendulkar.jgp",
+			"name" : "Sachin Tendulkar",
+			"description" : " One of the God Gifted Player in World Cricket"
+		},{
+			"filename" : "sourav_ganguly.jgp",
+			"name" : "Saurav Ganguly",
+			"description" : " One of the best captain and God of off side"
+		}
+	],
+	"aus":[
+		{
+			"filename" : "ricky_ponting.jgp",
+			"name" : "Ricky Ponting",
+			"description" : "Great Australian Captain and Puller"
+		},{
+			"filename" : "brett_lee.jgp",
+			"name" : "Brett Lee",
+			"description" : "Fastest Bowler"
+		}
+	]
+};
+
+  
